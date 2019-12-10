@@ -1,0 +1,32 @@
+
+img{
+    height:300px;
+    width:300px;
+    position: absolute;
+    border-radius: 50px;
+}
+img{
+    animation: sheepmove 15s 10 linear;
+    margin:0px;
+    padding:0px;
+}
+@keyframes sheepmove{
+    0%{left:100px;background-color:white;}
+    10%{left:200px; background-color:green;}
+    20%{left:300px;background-color:green;}
+    30%{left:400px;background-color:red;}
+    40%{left:500px;background-color:red;}
+    50%{left:500px;background-color: white;}
+    60%{left:400px;background-color:green;}
+    70%{left:300px;background-color:green;}
+    80%{left:200px;background-color:red;}
+    90%{left:100px;background-color:red;}    
+    100%{left:100px;background-color:white;}
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url('../photos/back.jpg');
+}
+
